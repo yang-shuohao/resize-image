@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Image Resize with Transparent Padding",
+  "version": "1.0",
+  "description": "Resize image and pad extra area with transparency",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html", 
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png"
+  }
+}

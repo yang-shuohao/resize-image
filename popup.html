@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Image Resize</title>
+<link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+ <div id="top-bar">
+    <h3>Upload Image</h3>
+    <a
+      href="https://github.com/yang-shuohao/resize-image"
+      target="_blank"
+      id="github-link"
+      title="View on GitHub"
+    >🔗 GitHub</a>
+  </div>
+  <input type="file" id="fileInput" accept="image/*" />
+  
+  <h3>Set New Size</h3>
+  <input type="number" id="newWidth" placeholder="New width (px)" />
+  <input type="number" id="newHeight" placeholder="New height (px)" />
+  
+  <button id="resizeBtn" disabled>Resize Image</button>
+  
+  <div id="result"></div>
+  <a id="downloadLink" href="#" download="resized.png" style="display:none;">Download Resized Image</a>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
